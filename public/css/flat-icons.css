@@ -1,0 +1,228 @@
+/**
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    height: 100%;
+}
+
+body
+{
+
+}*/
+
+.container-dd
+{
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    background: #1c1a21;
+    width: 550px;
+    margin: 0px auto;
+}
+
+.flat-icons
+{
+    position: relative;
+    width: 420px;
+    height: 750px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.flat-icons div
+{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background: #ef2727;
+    border-radius: 100%;
+    float: left;
+    margin-bottom: 25px;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+}
+
+.flat-icons div:nth-child(even)
+{
+    margin-left: 20px;
+}
+
+.clock:before
+{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 50px;
+    background: #fff;
+    display: inline-block;
+    margin-left: -2px;
+    margin-top: 35px;
+    border-radius: 3px 3px 0 0;
+}
+
+.clock:after
+{
+    position: absolute;
+    content: '';
+    width: 52px;
+    height: 8px;
+    background: #fff;
+    margin-left: -50px;
+    margin-top: 81px;
+    border-radius: 5px 0 0 5px;
+}
+
+.clouds:before
+{
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    background: #fff;
+    margin-top: 70px;
+    border-radius: 40px;
+}
+
+.clouds:after
+{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: #fff;
+    border-radius: 100%;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 65px;
+    box-shadow: -45px 5px 0 -10px #fff;
+}
+
+.headphone:before
+{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 8px solid #fff;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+}
+
+.headphone:after
+{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 40px;
+    background: #fff;
+    margin-top: 80px;
+    margin-left: 110px;
+    border-radius: 25px;
+    box-shadow: -111px 0 0 #fff;
+}
+
+.notepad:before
+{
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 110px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 0 rgba(255,255,255,0.7),
+    0 -25px 0 -20px #fff,
+    0 -40px 0 -30px rgba(255,255,255,0.7);
+}
+
+.notepad:after
+{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -1.5px;
+    box-shadow: 0 -30px 0 rgba(255,255,255,0.9),
+    0 -15px 0 rgba(255,255,255,0.5),
+    0 15px 0 rgba(255,255,255,0.5),
+    0 30px 0 rgba(255,255,255,0.9);
+}
+
+.camera:before
+{
+    content: '';
+    display: inline-block;
+    width: 110px;
+    height: 70px;
+    background: #fff;
+    margin-top: 55px;
+    border-radius: 10px;
+    box-shadow: 0 -15px 0 #eaeaea,
+    -15px -50px 0 -30px rgba(255,255,255,0.9),
+    5px -50px 0 -33px #fff;
+}
+
+.camera:after
+{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: inherit;
+    border-radius: 100%;
+    left: 50%;
+    margin-top: 62px;
+    margin-left: -27.5px;
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,0.7),
+    inset 0 0 0 10px rgba(255,255,255,0.5),
+    inset 0 0 0 20px rgba(255,255,255,0.2);
+}
+
+.calendar:before
+{
+    content: '27';
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background: #fff;
+    margin-top: 60px;
+    box-shadow: 0 -2px 0 #ef2727,
+    0 -20px 0 rgba(255,255,255,0.5);
+    border-radius: 7px 7px 0 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #ef2727;
+}
+
+.calendar:after
+{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: rgba(255,255,255,0.7);
+    left: 50%;
+    margin-top: 32px;
+    margin-left: 20px;
+    box-shadow: -50px 0 0 rgba(255,255,255,0.7);
+    border-radius: 4px;
+}
